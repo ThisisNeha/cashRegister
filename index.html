@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Management</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="centre-txt">
+    <div class="div-centre">
+      <h1>Cash Manager 🤑</h1>
+      <p class="para">
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
+      <label for="bill-amount">Bill Amount :</label>
+      <input type="number" id="bill-amount" />
+
+      <label for="cash-given">Cash Given :</label>
+      <input type="number" id="cash-given" />
+
+      <button id="button" type="submit">Check</button>
+      <p id="error"></p>
+      <span id="text"></span>
+
+      <table class="table">
+        <caption class="table-caption">
+          Return Change
+        </caption>
+        <thead>
+          <tr>
+            <th>No. of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <footer>
+        <a href="https://instagram.com"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+        <a href="https://www.linkedin.com/in/neha-barak">
+          <img src="https://img.icons8.com/fluency/48/000000/linkedin.png" /></a>
+        <a href="https://github.com">
+          <img src="https://img.icons8.com/windows/32/000000/github.png" /></a>
+        <p class="copy-right">© | 2021 | Neha</p>
+      </footer>
+
+  </main>
+  </div>
+  <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
